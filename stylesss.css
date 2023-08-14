@@ -1,0 +1,246 @@
+.navTwo{
+    background-color: rgb(68, 71, 120);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+    font-weight: bolder;
+    padding-left: 20px;
+    height: 43px;
+}
+.first{
+    display: flex;
+  
+}
+.second{
+    margin-right: 20px;
+}
+.click{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top:150px;
+    color:black;
+    margin:0 28px;
+   
+   
+}
+.click i{
+    font-size : 50px;
+    
+}
+.first p{
+    margin-right: 20px;
+}
+
+.third p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: relative;
+   top:229px;
+   height:45px;
+  margin:0 25px;
+    background-color: white;
+  
+
+}
+a{
+    text-decoration: none;
+    color: rgb(33, 140, 175);
+}
+.space{
+    display: flex;
+    justify-content: space-evenly;
+    margin:0 22px;
+
+}
+ .gaming,.Shop,.Refresh,.sign{
+    
+    height: 370px;
+    width:330px;
+    background-color: white;
+    margin: 0 12px 0 0;
+    position: relative;
+    top:250px;
+    margin-left: 10px;
+    
+}
+h2{
+    font-size: 23px;
+    font-weight: bold;
+   position: relative;
+   left:20px;
+   top:25px;
+}
+.img1{
+margin:0 160px 0 0;
+   height:250px;
+   width:340px;
+  
+  
+}
+.hj1{
+    padding-top: 39px;
+   
+}
+.hj1,.hj2{
+    
+    
+    position: relative;
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin:0 10px;
+ 
+   
+
+
+}
+.hj1 img,.hj2 img{
+    width:140px;
+    height:130px;
+   
+    margin-left: 10px;
+    
+   
+}
+.hj2 img{
+    margin-left: 10px;
+}
+.products{
+   
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right:20px;
+}
+.products2{
+    
+    position: relative;
+    top:67px;
+    
+    
+  
+    display: flex;
+    justify-content: space-evenly;
+
+  
+}
+.Refresh .img1 img{
+height:114px;
+}
+.Refresh .products2 p{
+    position: relative;
+    bottom: 28px;
+}
+.sign{
+    
+    background: transparent;
+   
+}
+ #signup {
+   
+   height: 60px;
+    
+}
+.firstpart{background-color: white;}
+
+
+button{
+   font-size: 16px;
+    height:40px;
+    width:250px;
+    background-color: yellow;
+    border: none;
+    border-radius: 8px;
+    margin:35px 25px;
+   
+
+   
+
+}
+ #amazonbox{
+    height: 270px;
+    width:300px;
+    margin:18px 0 0 0;
+
+}
+
+
+
+
+/*
+
+<div class="spacee" id="space2"> 
+
+
+      
+      
+        <div class="gaming"><h2>Gaming accessories</h2>
+            <div class="img1">
+       <div class="hj1"> <img src="images/headset.jpg" alt="headset">
+        
+    <img src="images/keyboard.jpg" id="keyboard" alt="">
+</div>
+<div class="products"><p>Headsets</p>
+<p>keyboards</p></div>
+     <div class="hj2"><img src="images/mouse.jpg" alt="">
+<img src="images/chair.jpg" id="chair" alt=""></div>
+</div>
+<div class="products2">
+    <p>Mouse</p>
+    <p>Chairs</p>
+</div>
+<div class="see">See more</div>
+     </div>
+
+     <div class="Shop1"><h2>Health & Personal Care</h2>
+        <div class="img1">
+            <div class="health"> <img src="images/health.jpg" alt="jeans">
+             
+         
+     </div>
+     
+         
+     </div>
+     
+    <div class="seeMore">See more</div>
+    </div>
+        
+
+
+
+        <div class="Refresh"><h2>Fashion trends you like</h2>
+            <div class="img1">
+                <div class="hj1"> <img src="images/basket.jpg" alt="jeans">
+                 
+             <img src="images/wardrobe.jpg"  alt="">
+         </div>
+         <div class="products">
+            <p>Baskets and hampers</p>
+         <p>Hardware</p>
+           </div>
+              <div class="hj2"><img src="images/furni.jpg" alt="">
+         <img src="images/wallpaper.jpg"  alt=""></div>
+         </div>
+         <div class="products2">
+            <p>Accent furniture</p>
+            <p>Wallpaper & print</p>
+        </div>
+        <div class="see">See more</div>
+       </div>
+
+
+        <div class="sign">
+              <div class="firstpart"><h2 id="signup">Electronics</h2>
+           
+              <div class="img"> <img id="amazonbox1"   src="images/lappy.jpg" alt="amazon"></div>
+              </div>
+              <div class="seeMore">See more</div>
+              </div>
+
+              
+         </div>
